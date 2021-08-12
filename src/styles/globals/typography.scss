@@ -1,0 +1,22 @@
+@use "colors.scss" as *;
+
+h1 {
+    font-weight: 400;
+    color: $dark-blue;
+    font-size: 2rem;
+}
+
+p{
+    color: $grayish-blue;
+}
+
+.heading{
+    font-size: 3rem;
+}
+
+
+// a,
+// a:visited,
+// a:active {
+//   text-decoration: none;
+// }

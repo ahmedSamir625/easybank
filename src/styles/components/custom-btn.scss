@@ -1,0 +1,24 @@
+@use "../globals/colors.scss" as *;
+
+.custom-btn {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    color: $white;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border-style: none;
+    background-image:$btn-bg-color;
+    white-space: nowrap;
+}
+
+.custom-btn:focus,
+.custom-btn:active,
+.custom-btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.custom-btn:hover{
+    opacity: 70%;
+}

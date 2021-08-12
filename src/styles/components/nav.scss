@@ -1,0 +1,27 @@
+@use "../globals/colors.scss" as *;
+
+.navbar>.container-fluid {
+    padding: 0;
+}
+
+.nav-item{
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: $white;
+
+}
+
+.nav-item:hover{
+    border-bottom-color: $lime-green;
+}
+
+.navbar-toggler{
+    border-style: none;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}

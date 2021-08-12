@@ -1,0 +1,16 @@
+@use "colors.scss" as *;
+
+
+body{
+    background-color: $white;
+}
+
+
+.bg-very-light-grey{
+    background-color: $very-light-gray;
+    // background-color: red;
+}
+
+.bg-light-grayish-blue{
+    background-color: $light-grayish-blue;
+}
