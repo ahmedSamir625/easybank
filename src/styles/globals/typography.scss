@@ -6,27 +6,52 @@ h1 {
     font-size: 2rem;
 }
 
-h6{
+h6 {
     font-weight: 400;
     color: $grayish-blue;
     font-size: 12px;
 }
 
-p{
+p {
     color: $grayish-blue;
 }
 
-.heading{
+.heading {
     font-size: 3rem;
 }
 
-.feature{
+.feature {
     font-size: 1.5rem;
 }
 
+h5:hover {
+    color: $lime-green;
+}
 
-// a,
-// a:visited,
-// a:active {
-//   text-decoration: none;
-// }
+a,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: $white;
+}
+
+a:hover {
+    color: $lime-green;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    padding-bottom: 10px;
+}
+
+i.fab{
+    margin-right: 3px;
+}
+
+i.fab:hover{
+    color: $lime-green;
+}
